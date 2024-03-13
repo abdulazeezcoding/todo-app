@@ -8,6 +8,7 @@ function TodoItem(props) {
         <label className="form-check-label"
             for={props.index}>
             {props.todo}</label>
+            <button className="btn btn-danger" onClick={()=> props.setTodo([])}>Delete</button>
             </li>);
                         //Take Home Assignment - Implement DELETE item
 
